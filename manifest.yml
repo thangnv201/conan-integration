@@ -1,0 +1,22 @@
+modules:
+  jira:issuePanel:
+    - key: conan-intergration-hello-world-panel
+      function: main
+      title: conan-intergration
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  jira:issueActivity:
+    - key: conan-integration-history
+      function: history
+      title: conan-history
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+    - key: history
+      handler: history.run
+app:
+  id: ari:cloud:ecosystem::app/fbe72d97-3338-40d8-b03b-63474aa30a6c
+permissions:
+  scopes:
+    - write:jira-work
+    - read:jira-work
