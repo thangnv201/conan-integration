@@ -15,7 +15,7 @@ modules:
     - key: history
       handler: history.run
 app:
-  id: ari:cloud:ecosystem::app/fbe72d97-3338-40d8-b03b-63474aa30a6c
+  id: ari:cloud:ecosystem::app/232ec7a7-007e-42bc-b731-9d6e487e85e6
 permissions:
   scopes:
     - write:jira-work
